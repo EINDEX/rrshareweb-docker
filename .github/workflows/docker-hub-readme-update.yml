@@ -23,7 +23,7 @@ jobs:
         uses: meeDamian/sync-readme@v1.0.6
         with:
           # Docker Hub username.  Set only if different than on Github.
-          user: ${{ secrets.DOCKERHUB_USERNAME }}
+          user: ${{ secrets.DOCKER_USERNAME }}
           # Docker Hub password
-          pass: ${{ secrets.DOCKERHUB_PASSWORD }}
+          pass: ${{ secrets.DOCKER_PASSWORD }}
 
