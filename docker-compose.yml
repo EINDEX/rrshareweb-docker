@@ -1,0 +1,11 @@
+version: "3"
+services: 
+  rrshareweb:
+    image: eindex/rrshareweb:x86_64
+    ports: 
+      - 3001:3001
+    volumes: 
+      - "<path to data>:/opt/work/rrshareweb/data"
+      - "<path to conf>:/opt/work/rrshareweb/conf"
+    restart: always
+    
