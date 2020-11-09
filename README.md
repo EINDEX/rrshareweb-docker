@@ -1,5 +1,5 @@
 # rrshare-docker
-人人影视 Docker 镜像，压缩后仅有 12 MB 左右。
+人人影视 Docker 镜像，干净无添加，基于 Github Action 全自动更新。
 
 纯净人人影视镜像，通过 CI 保持自动更新。
 
